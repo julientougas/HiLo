@@ -18,6 +18,7 @@ import java.util.Random;
 
 public class MainActivity extends Activity {
 
+    //About Menu
     private static final String ABOUT_DIALOG_TAG = "About Dialog";
 
     @Override
@@ -40,8 +41,8 @@ public class MainActivity extends Activity {
     }
 
 
+    //Generate random number
     Random rand = new Random();
-
     int theNumber = rand.nextInt(1000) + 1;
 
 
